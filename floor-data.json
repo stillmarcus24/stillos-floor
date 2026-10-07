@@ -1,0 +1,186 @@
+{
+ "as_of": "2026-10-03",
+ "universe_packages": 90,
+ "servers_measured": 8534,
+ "rule": "reach >= 10% of measured MCP servers AND exactly 1 npm maintainer AND >= 2y since last publish",
+ "chokepoints": [
+  {
+   "pkg": "once",
+   "pct": 81.23,
+   "servers": 8181,
+   "maintainer": "isaacs",
+   "last_publish": "2016-09-06",
+   "dormant_years": 10.1
+  },
+  {
+   "pkg": "wrappy",
+   "pct": 81.23,
+   "servers": 8181,
+   "maintainer": "isaacs",
+   "last_publish": "2016-05-17",
+   "dormant_years": 10.4
+  },
+  {
+   "pkg": "es-errors",
+   "pct": 80.37,
+   "servers": 8094,
+   "maintainer": "ljharb",
+   "last_publish": "2024-02-05",
+   "dormant_years": 2.7
+  },
+  {
+   "pkg": "path-key",
+   "pct": 80.35,
+   "servers": 8092,
+   "maintainer": "sindresorhus",
+   "last_publish": "2021-04-09",
+   "dormant_years": 5.5
+  },
+  {
+   "pkg": "shebang-command",
+   "pct": 80.27,
+   "servers": 8084,
+   "maintainer": "kevva",
+   "last_publish": "2019-09-06",
+   "dormant_years": 7.1
+  },
+  {
+   "pkg": "shebang-regex",
+   "pct": 80.27,
+   "servers": 8084,
+   "maintainer": "sindresorhus",
+   "last_publish": "2021-08-13",
+   "dormant_years": 5.1
+  },
+  {
+   "pkg": "safer-buffer",
+   "pct": 80.11,
+   "servers": 8068,
+   "maintainer": "chalker",
+   "last_publish": "2018-04-08",
+   "dormant_years": 8.5
+  },
+  {
+   "pkg": "inherits",
+   "pct": 79.98,
+   "servers": 8055,
+   "maintainer": "isaacs",
+   "last_publish": "2019-06-19",
+   "dormant_years": 7.3
+  },
+  {
+   "pkg": "depd",
+   "pct": 79.91,
+   "servers": 8048,
+   "maintainer": "dougwilson",
+   "last_publish": "2018-10-26",
+   "dormant_years": 7.9
+  },
+  {
+   "pkg": "escape-html",
+   "pct": 79.91,
+   "servers": 8048,
+   "maintainer": "dougwilson",
+   "last_publish": "2015-09-01",
+   "dormant_years": 11.1
+  },
+  {
+   "pkg": "setprototypeof",
+   "pct": 79.91,
+   "servers": 8048,
+   "maintainer": "wesleytodd",
+   "last_publish": "2019-07-18",
+   "dormant_years": 7.2
+  },
+  {
+   "pkg": "merge-descriptors",
+   "pct": 79.89,
+   "servers": 8046,
+   "maintainer": "sindresorhus",
+   "last_publish": "2023-11-16",
+   "dormant_years": 2.9
+  },
+  {
+   "pkg": "fast-deep-equal",
+   "pct": 78.97,
+   "servers": 7953,
+   "maintainer": "esp",
+   "last_publish": "2020-06-08",
+   "dormant_years": 6.3
+  },
+  {
+   "pkg": "require-from-string",
+   "pct": 78.97,
+   "servers": 7953,
+   "maintainer": "floatdrop",
+   "last_publish": "2018-04-09",
+   "dormant_years": 8.5
+  },
+  {
+   "pkg": "json-schema-traverse",
+   "pct": 78.92,
+   "servers": 7948,
+   "maintainer": "esp",
+   "last_publish": "2020-12-13",
+   "dormant_years": 5.8
+  }
+ ],
+ "negative_controls": [
+  {
+   "pkg": "zod",
+   "pct": 84.74,
+   "maintainer": "colinhacks",
+   "last_publish": "2026-09-13",
+   "dormant_years": 0.1
+  },
+  {
+   "pkg": "@hono/node-server",
+   "pct": 80.76,
+   "maintainer": "yusukebe",
+   "last_publish": "2026-09-29",
+   "dormant_years": 0.0
+  },
+  {
+   "pkg": "jose",
+   "pct": 80.53,
+   "maintainer": "panva",
+   "last_publish": "2026-09-05",
+   "dormant_years": 0.1
+  },
+  {
+   "pkg": "gopd",
+   "pct": 80.35,
+   "maintainer": "ljharb",
+   "last_publish": "2024-12-04",
+   "dormant_years": 1.8
+  },
+  {
+   "pkg": "es-define-property",
+   "pct": 80.35,
+   "maintainer": "ljharb",
+   "last_publish": "2024-12-06",
+   "dormant_years": 1.8
+  },
+  {
+   "pkg": "isexe",
+   "pct": 80.3,
+   "maintainer": "isaacs",
+   "last_publish": "2026-02-09",
+   "dormant_years": 0.6
+  },
+  {
+   "pkg": "eventsource-parser",
+   "pct": 80.29,
+   "maintainer": "rexxars",
+   "last_publish": "2026-09-15",
+   "dormant_years": 0.0
+  },
+  {
+   "pkg": "cross-spawn",
+   "pct": 80.27,
+   "maintainer": "satazor",
+   "last_publish": "2024-11-18",
+   "dormant_years": 1.9
+  }
+ ]
+}
