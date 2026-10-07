@@ -3,7 +3,7 @@
 **What is your dependency floor standing on?**
 
 ```bash
-npx stillos-floor
+npx github:stillmarcus24/stillos-floor
 ```
 
 No account. No API key. No config. No signup. It reads your lockfile and prints the dormant, single-maintainer packages your project transitively depends on — the ones nobody chose and everybody has.
@@ -62,7 +62,7 @@ And it discriminates between projects — measured on four real trees: **15, 6, 
 ## `--seal`: a receipt a stranger can check
 
 ```bash
-npx stillos-floor --seal
+npx github:stillmarcus24/stillos-floor --seal
 ```
 
 Commits a SHA-256 of your report to a public, append-only, Ed25519-signed notary chain and gives you a badge that links to it:
@@ -92,8 +92,8 @@ Supply-chain scanners grade a package *as it is now*. The xz backdoor was not vi
 Measured 2026-10-06: the leading MCP trust index grades **40,541 servers** and surfaces **0 of these 15** chokepoints. Not because it is bad — because it is answering a different question.
 
 ```bash
-npx stillos-floor --list    # the whole floor, with the negative controls
-npx stillos-floor --json    # machine-readable
+npx github:stillmarcus24/stillos-floor --list    # the whole floor, with the negative controls
+npx github:stillmarcus24/stillos-floor --json    # machine-readable
 ```
 
 MIT. Node ≥ 18. Zero dependencies.
